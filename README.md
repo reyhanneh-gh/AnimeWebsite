@@ -28,5 +28,4 @@ Created as a passion project to explore animation techniques using CSS while ble
 ## 🖼️ Screenshots
 Here’s a preview of the landing page:
 
-
-![Screenshot_20-7-2025_3035_](https://github.com/user-attachments/assets/2e80022e-750c-4129-86ce-a375955fa5ef)
+![Screenshot_20-7-2025_3035_](https://github.com/user-attachments/assets/56e9e290-0e5a-4c25-abab-c4a8e742adc8)
