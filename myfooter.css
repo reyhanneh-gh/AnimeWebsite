@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+    footer {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        position: relative;
+
+        >section {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            width: 150px;
+            height: 150px;
+
+            >figure {
+                display: flex;
+                position: absolute;
+                right: 0px;
+                top: 5px;
+                width: 140px;
+                height: 90%;
+                background-color:rgb(236, 211, 211);
+                border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+                z-index: 1;
+                transition: 1s;
+
+                >img {
+                    position: absolute;
+                    right: 5px;
+                    top: -8px;
+                    width: 95%;
+                    height: 95%;
+                    border-radius: 71% 29% 30% 70% / 70% 70% 30% 30%;
+                    margin-left: 14px;
+                    margin-top: 10px;
+                    transition: 2s;
+                    box-shadow: 0 0 8px rgba(143, 25, 57, 0.738);
+                }
+
+
+
+            }
+
+
+            >div {
+                backdrop-filter: blur(10px);
+                margin-block: 20px auto;
+                width: 0px;
+                overflow: hidden;
+                height: 85px;
+                background-color: rgba(255, 255, 255, 0.145);
+                position: absolute;
+                right: 130px;
+                top: 0px;
+                margin-block: 34px;
+                border-bottom-left-radius: 20px;
+                border-top-left-radius: 20px;
+                content-visibility: hidden;
+
+                /* border: 2px solid black; */
+
+                >p {
+                    font-size: 14px;
+                    margin-top: 5px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-align: center;
+
+                }
+
+                h4 {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-align: center;
+                }
+
+                >ul {
+                    display: flex;
+                    position: absolute;
+                    left: 0px;
+                    width: 290px;
+
+                    /* border: 2px solid red; */
+
+                    >li {
+                        list-style-type: none;
+                        /* border: 2px solid white; */
+                        padding-top: 3px;
+                        margin-inline: auto;
+
+                        >a {
+                            /* background-color: rgb(226, 141, 43); */
+                            padding-inline: 8px;
+                            font-size: 30px;
+                            text-decoration: none;
+                            color: black;
+                            transition: .4s;
+
+                            &:hover {
+                                color: rgb(236, 211, 211);
+                                border-radius: 10px;
+                            }
+                        }
+
+
+                    }
+                }
+
+                transition: 1s;
+            }
+
+            &:hover {
+                width: 444px;
+
+                >div {
+                    content-visibility: visible;
+                    width: 300px;
+                }
+
+                >figure {
+                    border-radius: 71% 29% 30% 70% / 70% 70% 30% 30%;
+
+                    >img {
+                        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+                    }
+                }
+            }
+        }
+    }
