@@ -1,6 +1,8 @@
 # ♦️ Anime Streaming Platform – Landing Page
 
 A sleek and animated landing page for a fictional anime streaming service, built entirely with **HTML** and **CSS**. It showcases CSS-based animations and creative UI styling—perfect for anime enthusiasts and frontend fans alike.
+This website’s user interface was fully designed and developed by Reyhaneh Ghalambor 💫. From layout structure to color palette, typography, and interactive elements, every detail was crafted to deliver a smooth and visually engaging experience for anime fans.
+
 
 🔗 [Live Demo](https://sparkly-centaur-974833.netlify.app/) 🪄
 
